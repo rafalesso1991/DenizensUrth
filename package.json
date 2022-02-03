@@ -1,0 +1,17 @@
+{
+  "name": "denizensurth",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rafael Alesso",
+  "license": "ISC",
+  "description": "Sitio Dinamico para la Entrega Final del Curso PWI TM 2021 de la UTN"
+}

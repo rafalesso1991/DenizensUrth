@@ -1,0 +1,135 @@
+@font-face {
+    font-family: "Athelas";
+    src: url(./fonts/Athelas-Regular.ttf);
+}
+@font-face {
+    font-family: "FirstOrder";
+    src: url(./fonts/firstorder.ttf);
+}
+@font-face {
+    font-family: "JSL Ancient";
+    src: url(./fonts/jancient.ttf);
+}
+* {
+	box-sizing: border-box;
+    font-family: 'JSL Ancient';
+	margin: 0;
+	padding: 0;
+}
+.body{
+    background: #000;
+    min-height: 100vh;
+}
+    .nav{
+        display: flex;
+        justify-content: space-between;
+        height: 10vh;
+    }
+        .logo img{
+            max-height: 100%;
+            max-width: 100%;
+        }
+    .section{
+        display: flex;
+        justify-content: space-around;
+        height: 20vh;
+    }
+        .section h1{
+            align-self: center;
+            color: #fff;
+            font-family:"FirstOrder";
+            font-size: 4rem;
+        }
+        .section ul,
+        .nav ul{
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            list-style-type: none;
+            margin: 1rem;
+            padding: 1rem;
+        }
+        .section a,
+        .nav a{
+            background: #ECD7C6;
+            border: solid 1px #000;
+            border-radius: 8px;
+            box-shadow: inset 0px 0px 12px;
+            color: #000;
+            font-weight: bold;
+            padding: 0.7em 0.5em 0.5em 0.5em;
+            text-align: center;
+            text-decoration: none;
+        }
+        .section a:hover,
+        .nav a:hover{
+            box-shadow: 0px 0px 12px;
+            color: #9C0817;
+        }
+        .section a.selected,
+        .nav a.selected{
+            background: #9C0817;
+            box-shadow: 0px 0px 12px;
+            color: #fff;
+        }
+
+.main{
+    background-image: url(../img/cover/main.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem 0;
+}
+    .main a{
+        background: #A8A9AD;;
+        border-radius: 4px;
+        box-shadow: inset 0px 0px 4px #fff;
+        color: #000;
+        font-weight: bold;
+        padding: 0.2em 0.1em 0.1em 0.1em;
+        text-align: center;
+        text-decoration: none;
+        text-shadow: none;
+    }
+    .main a:hover{
+        box-shadow: 0px 0px 4px;
+        color: #9C0817;
+    }
+
+.footer{
+    background: #272727;
+    height: 7.5vh;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    grid-template-columns: 1fr 2fr;
+}
+.footer *{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+}
+.footer h6{
+    justify-content: center;
+}
+.footer .contact a{
+    border-radius: 8px;
+    gap: 1em;
+    margin: 1em;
+    text-align: center;
+    text-decoration: none;
+}
+.footer .contact a:hover{
+    box-shadow: inset 0px 0px 8px;
+}
+.footer .contact a.contact-btm span img {
+    max-height: 100%;
+    max-width: 100%;
+}

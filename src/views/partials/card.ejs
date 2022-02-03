@@ -1,0 +1,97 @@
+<% data.forEach((npc,i)=>{ %>
+    <div class="npc-card">
+        <img src="<%=npc.img%>" alt="<%=npc.name%>">
+        <div class="stadistics">
+            <p class="description">
+                "<%=npc.desc%>"
+            </p>
+            <div class="name-box">
+                <h3><%=npc.name%></h3>
+                <div class="diff">
+                    <h3>difficulty <%=npc.diff%></h3>
+                </div>
+            </div>
+            <h4>Size <%=npc.size%> <%=npc.anc%> <%=npc.paths%></h4>
+            <p>
+                <span>Perception</span> <%=npc.per%> (<%- npc.per<10 ? '':'+'%><%= npc.per-10 %>) <br>
+                <span>Defense</span> <%=npc.def%> <%- npc.armor==null ? '':'('+npc.armor+')'%>; 
+                <span>Health</span> <%=npc.health%>; 
+                <span>Insanity</span> 
+                <input type="text" class="insScore" id="insScore<%=i%>" value="<%=npc.ins%>">
+                <button type="button" class="insBtn" id="insBtn<%=i%>">roll</button>; 
+                <span>Corruption</span> 
+                <input type="text" class="corrScore" id="corrScore<%=i%>" value="<%=npc.corr%>">
+                <button type="button" class="corrBtn" id="corrBtn<%=i%>">roll</button> <br>
+                <span>Strength</span> <%=npc.str%> (<%- npc.str<10 ? '':'+'%><%= npc.str-10 %>), 
+                <span>Agility</span> <%=npc.agi%> (<%- npc.agi<10 ? '':'+'%><%= npc.agi-10 %>), 
+                <span>Intellect</span> <%=npc.int%> (<%- npc.int<10 ? '':'+'%><%= npc.int-10 %>), 
+                <span>Will</span> <%=npc.will%> (<%- npc.will<10 ? '':'+'%><%= npc.will-10 %>) <br>
+                <span>Speed</span> <%=npc.speed%>; <span>Professions</span> <%=npc.prof%> <br>
+            <% if (npc.list) { %>
+                <ul>
+                    <% npc.list.forEach((item) => { %>
+                        <li><%= item %></li>
+                    <% }) %>
+                </ul>
+            <% } %>
+            </p>
+        <% if (npc.talent) { %>
+            <p>
+                <% npc.talent.forEach((tal) => { %>
+                    <span><%=tal.name%></span> <%=tal.desc%> <br>
+                <% }) %>
+            </p>
+        <% } %>
+        <% if (npc.attack) { %>
+            <h5>attack options</h5>
+            <p>
+            <% npc.attack.forEach((att) => { %>
+                <span><%=att.weapon%></span> (<%=att.range%>) <%=att.bonus%> (<%=att.damage%>) <br>
+            <% }) %>
+            </p>
+        <% } %>
+        <% if (npc.special) { %>
+            <h5>special attacks</h5>
+            <p>
+            <% npc.special.forEach((spe) => { %>
+                <span><%=spe.name%></span> <%=spe.desc%> <br>
+            <% }) %>
+            </p>
+        <% } %>
+        <% if (npc.action) { %>
+            <h5>special actions</h5>
+            <p>
+            <% npc.action.forEach((act) => { %>
+                <span><%=act.name%></span> <%=act.desc%> <br>
+            <% if (act.list) { %>
+                <ul>
+                    <% act.list.forEach((item) => { %>
+                        <li><%= item %></li>
+                    <% }) %>
+                </ul>
+            <% } %>    
+            <% }) %>
+            </p>
+        <% } %>
+        <% if (npc.magic) { %>
+            <h5>magic</h5>
+            <p>
+                <span>Power</span> <%=npc.pow%>; <span>Implement</span> <%=npc.imp%> <br>
+            <% npc.magic.forEach((mag) => { %>
+                <span><%=mag.trad%>:</span>
+                <% mag.spell.forEach((spell) => { %>
+                    <em><%=spell.name%></em> (<%=spell.slots%>), 
+                <% }) %>
+                <br>
+            <% }) %>
+            </p>
+        <% } %>
+            <h5>equipment</h5>
+            <p>
+                <%=npc.equip%> <br>
+            </p>
+        </div>
+    </div>
+<% }); %>
+<script src="./js/roll.js">
+</script>

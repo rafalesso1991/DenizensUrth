@@ -1,0 +1,426 @@
+[
+    {
+        "img": "./img/pic/apothecary.png",
+        "desc": "There is at least one healer in each community. Instructed in the recognition of herbs, mushrooms and roots to alleviate certain ailments. They did not have a formal education but owe their expertise to the knowledge spread by word accumulated in rural communities by other healers.",
+        "name": "apothecary",
+        "diff": 1,
+        "size": 1,
+        "anc": "human",
+        "paths": "",
+        "per": 11,
+        "def": 10,
+        "armor": null,
+        "health": 10,
+        "ins": 1,
+        "corr": 2,
+        "str": 10,
+        "agi": 10,
+        "int": 11,
+        "will": 10,
+        "speed": 10,
+        "prof": "Apothecary or healer.",
+        "talent":[
+            {
+            "name": "Expertise",
+            "desc": "The apothecary makes rolls to stabilize creatures with 2 boons. In addition, if the apothecary tends to a resting character, the character heals extra damage equal to its healing rate and makes challenge rolls to resist the effects of disease and poison with 1 boon."
+            }
+        ],
+        "equip": "An alchemist's kit and healer's kit (6 uses)."
+    },
+    {
+        "img": "./img/pic/artisan.png",
+        "desc": "Artisans represent trades that require expertise in a particular field. These professions command a higher rate of pay than  more mundane jobs.",
+        "name": "artisan",
+        "diff": 1,
+        "size": 1,
+        "anc": "human",
+        "paths": "",
+        "per": 11,
+        "def": 10,
+        "armor": null,
+        "health": 10,
+        "ins": 0,
+        "corr": 0,
+        "str": 10,
+        "agi": 10,
+        "int": 11,
+        "will": 10,
+        "speed": 10,
+        "prof": "Artisan such as:",
+        "list":["Baker / Blacksmith","Bookbinder / Brewer","Carpenter / Chandler","Cobbler / Gem cutter","Glassblower / Jeweler","Leatherworker / Mason","Potter / Printer","Scribe or Tailor"],
+        "attack":[
+            {
+                "weapon": "Hammer",
+                "range": "melee or short r.",
+                "bonus": "+0",
+                "damage": "1d3"
+                }
+        ],
+        "talent":[
+            {
+            "name": "Expertise",
+            "desc": "The artisan can create finished items of a particular kind from provided raw materials. The artisan needs materials equal to half the item's price and it takes 4 hours per ss of the item's price to create the finished item."
+            }
+        ],
+        "equip": "A pouch with 2d6 cp and a tool kit."
+    },
+    {
+        "img": "./img/pic/artist.png",
+        "desc": "The life of the artist is less and less profitable in this world covered by the shadow of the Demon Lord. Yet every now and then enlightened minds appear with visions that can move the hearts of citizens.",
+        "name": "artist",
+        "diff": 1,
+        "size": 1,
+        "anc": "human",
+        "paths": "",
+        "per": 11,
+        "def": 10,
+        "armor": null,
+        "health": 10,
+        "ins": 0,
+        "corr": 0,
+        "str": 10,
+        "agi": 10,
+        "int": 11,
+        "will": 10,
+        "speed": 10,
+        "prof": "Artist such as:",
+        "list":["Painter or sculptor *(tool kit)","Writer or poet *(writing kit)"],
+        "talent":[
+            {
+            "name": "Charming",
+            "desc": "In social situations, the artist makes attack rolls to influence people ordinarily attracted to its gender and members of its ancestry with 1 boon."
+            }
+        ],
+        "equip": "A pouch with 1d6 cp plus one item related to its profession *."
+    },
+    {
+        "img": "./img/pic/beggar.png",
+        "desc": "Every day, more and more beggars infest the streets of the big cities begging for alms. They are the perfect victims for cultists and scholars looking for guinea pigs for macabre experiments. But they can also be bribed to observe and report without raising any suspicion.",
+        "name": "beggar",
+        "diff": 1,
+        "size": 1,
+        "anc": "human",
+        "paths": "",
+        "per": 10,
+        "def": 10,
+        "armor": null,
+        "health": 10,
+        "ins": 0,
+        "corr": 0,
+        "str": 10,
+        "agi": 10,
+        "int": 9,
+        "will": 8,
+        "speed": 10,
+        "prof": "Beggar.",
+        "talent":[
+            {
+            "name": "Afflicted",
+            "desc": "A beggar suffers from a physical or mental malady, and thus makes challenge rolls with 1 bane."
+            }
+        ],
+        "equip": "A begging bowl and a blanket."
+    },
+    {
+        "img": "./img/pic/cook.png",
+        "desc": "Adherents of the art of cooking, chefs are in charge of preparing meals in everything from small inns to large halls.",
+        "name": "cook",
+        "diff": 1,
+        "size": 1,
+        "anc": "human",
+        "paths": "",
+        "per": 10,
+        "def": 10,
+        "armor": null,
+        "health": 10,
+        "ins": 0,
+        "corr": 0,
+        "str": 10,
+        "agi": 10,
+        "int": 10,
+        "will": 10,
+        "speed": 10,
+        "prof": "Cook.",
+        "talent":[
+            {
+            "name": "Skill Training",
+            "desc": "Food the cook prepares allows characters that complete a rest to heal 1d6 extra damage."
+            }
+        ],
+        "attack":[
+            {
+            "weapon": "Large Knife",
+            "range": "melee",
+            "bonus": "+0",
+            "damage": "1d6"
+            }
+        ],
+        "equip": "A bottle of spirits, chicken [tiny animal] and tool kit."
+    },
+    {
+        "img": "./img/pic/commoner.png",
+        "desc": "Lower-middle-class people who received enough education to be able to read and write at least one language.",
+        "name": "commoner",
+        "diff": 1,
+        "size": 1,
+        "anc": "human",
+        "paths": "",
+        "per": 10,
+        "def": 10,
+        "armor": null,
+        "health": 10,
+        "ins": 0,
+        "corr": 0,
+        "str": 10,
+        "agi": 10,
+        "int": 10,
+        "will": 10,
+        "speed": 10,
+        "prof": "A common profession such as:",
+        "list":["Bartender or shopkeeper","Trade such as butcher, dyer, or tanner"],
+        "attack":[
+            {
+            "weapon": "Dagger",
+            "range": "melee or short r.",
+            "bonus": "+0",
+            "damage": "1d3"
+            }
+        ],
+        "equip": "A pouch with 1d6 cp"
+    },
+    {
+        "img": "./img/pic/courtesan.png",
+        "desc": "Claimed by some to be the oldest profession of humanity, courtesans are men and women willing to offer companionship and carnal pleasures in exchange for coin. These types of businesses are available at any social level, more expensive courtesans are more interesting talkers and they may know one extra profession such as dancer or singer.",
+        "name": "courtesan",
+        "diff": 1,
+        "size": 1,
+        "anc": "human",
+        "paths": "",
+        "per": 10,
+        "def": 10,
+        "armor": null,
+        "health": 9,
+        "ins": 0,
+        "corr": 0,
+        "str": 9,
+        "agi": 10,
+        "int": 10,
+        "will": 8,
+        "speed": 10,
+        "prof": "Courtesan, prostitute, or camp follower.",
+        "list":["Cheap - *Cost: 1 cp per hour; Chance of having Lover's Lament (FD p.3): 1d6","Common - *Cost: 1 ss per hour; Chance of having Lover's Lament (FD p.3): 1d20","Fine - *Cost: 1 gp per hour; Chance of having Lover's Lament (FD p.3): none"],
+        "attack":[
+            {
+            "weapon": "Dagger",
+            "range": "melee or short r.",
+            "bonus": "+0",
+            "damage": "1d3"
+            }
+        ],
+        "equip": "A cosmetics kit and a purse with 1d6 coins* (depending on the courtesan's cost)."
+    },
+    {
+        "img": "./img/pic/entertainer.png",
+        "desc": "Musicians and entertainers liven up the parties and when they are not trying to make a living with street shows.",
+        "name": "entertainer",
+        "diff": 1,
+        "size": 1,
+        "anc": "human",
+        "paths": "",
+        "per": 10,
+        "def": 10,
+        "armor": null,
+        "health": 10,
+        "ins": 0,
+        "corr": 0,
+        "str": 10,
+        "agi": 10,
+        "int": 10,
+        "will": 10,
+        "speed": 10,
+        "prof": "Entertainer such as:",
+        "list":["Actor","Athlete","Comedian","Dancer","Orator","Puppeteer","Singer","Storyteller"],
+        "equip": "A costume, dress, or fine clothing."
+    },
+    {
+        "img": "./img/pic/merchant.png",
+        "desc": "Merchants are the lifeblood of commerce, bringing essential supplies from remote cities. Their importance to the economy positions them among some of the wealthiest citizens.",
+        "name": "merchant",
+        "diff": 1,
+        "size": 1,
+        "anc": "human",
+        "paths": "",
+        "per": 11,
+        "def": 10,
+        "armor": null,
+        "health": 9,
+        "ins": 0,
+        "corr": 0,
+        "str": 9,
+        "agi": 10,
+        "int": 11,
+        "will": 10,
+        "speed": 10,
+        "prof": "Merchant.",
+        "attack":[
+            {
+                "weapon": "Dagger",
+                "range": "melee or short range",
+                "bonus": "+0",
+                "damage": "1d3"
+            }
+        ],
+        "action":[
+            {
+            "name": "Subterfuge",
+            "desc": "The merchant makes an Intellect attack roll against the Intellect of one creature within short range that can hear and understand what the merchant says. On a success, the target becomes charmed for 1 round or until the merchant attacks it. On a failure, the target becomes immune to the merchant’s use of Subterfuge until the target completes a rest."
+            }
+        ],
+        "equip": "A pouch with 1d6 ss and raw goods such as grains, livestock, slaves, spices, or textiles worth 1d6 ss. Plus a horse, two guards and a servant."
+    },
+    {
+        "img": "./img/pic/musician.png",
+        "desc": "Musicians and entertainers liven up the parties and when they are not trying to make a living with street shows.",
+        "name": "musician",
+        "diff": 1,
+        "size": 1,
+        "anc": "human",
+        "paths": "",
+        "per": 10,
+        "def": 10,
+        "armor": null,
+        "health": 10,
+        "ins": 0,
+        "corr": 0,
+        "str": 10,
+        "agi": 10,
+        "int": 10,
+        "will": 10,
+        "speed": 10,
+        "prof": "Musician (percussion, stringed, or wind)",
+        "talent":[
+            {
+            "name": "Skill Training",
+            "desc": "The musician can use an action to help any creature that can see and hear it within long range by performing music."
+            }
+        ],
+        "equip": "A musical instrument and musician's tools (II p.7)."
+    },
+    {
+        "img": "./img/pic/peasant.png",
+        "desc": "Most of the common folk are illiterate people who live by their labors which require no formal training.",
+        "name": "peasant",
+        "diff": 1,
+        "size": 1,
+        "anc": "human",
+        "paths": "",
+        "per": 10,
+        "def": 10,
+        "armor": null,
+        "health": 10,
+        "ins": 0,
+        "corr": 0,
+        "str": 10,
+        "agi": 10,
+        "int": 9,
+        "will": 8,
+        "speed": 10,
+        "prof": "A simple profession such as:",
+        "list":["Boatman or ferryman *(rowboat FC p.39)","Drover or herder *(staff)","Farmer *(hoe, shovel, or rake)","Groom or scullion *(extra set of clothing)","Laborer such as gravedigger, porter, stevedore, or street-sweeper *(work tool)","Miner or prospector *(pick)","Sailor *(belaying pin FC p.31)"],
+        "equip": "A sack with 1d6 bits plus one item related to its profession *."
+    },
+    {
+        "img": "./img/pic/pilot.png",
+        "desc": "If someone wants to travel in a vehicle, be it a ship, a cart, or something else, they need a pilot. Carts and wagons don't need special training except when driving at high speed.",
+        "name": "pilot",
+        "diff": 1,
+        "size": 1,
+        "anc": "human",
+        "paths": "",
+        "per": 10,
+        "def": 10,
+        "armor": null,
+        "health": 10,
+        "ins": 0,
+        "corr": 0,
+        "str": 10,
+        "agi": 10,
+        "int": 10,
+        "will": 10,
+        "speed": 10,
+        "prof": "Pilot or teamster.",
+        "talent":[
+            {
+            "name": "Skill Training",
+            "desc": "The pilot or teamster makes rolls to pilot or drive with 2 boons."
+            }
+        ],
+        "attack":[
+            {
+            "weapon": "Whip",
+            "range": "melee reach +1",
+            "bonus": "+0",
+            "damage": "1d3"
+            }
+        ],
+        "equip": "A pouch with 1d6 cp."
+    },
+    {
+        "img": "./img/pic/servant.png",
+        "desc": "Many wealthy people hire servants to help them with their day-to-day chores while they take care of more important matters.",
+        "name": "servant",
+        "diff": 1,
+        "size": 1,
+        "anc": "human",
+        "paths": "",
+        "per": 10,
+        "def": 10,
+        "armor": null,
+        "health": 10,
+        "ins": 0,
+        "corr": 0,
+        "str": 10,
+        "agi": 10,
+        "int": 10,
+        "will": 10,
+        "speed": 10,
+        "prof": "Servant or valet.",
+        "talent":[
+            {
+            "name": "Skill Training",
+            "desc": "The servant grants 1 additional boon when using an action to help."
+            }
+        ],
+        "equip": "Fine clothing and a pouch with 1d6 cp."
+    },
+    {
+        "img": "./img/pic/urchin.png",
+        "desc": "Little brats raised on the streets, they will do anything for a coin, they can offer themselves as guides, errand boys or messengers. They usually gather in small gangs and work together to distract victims while others try to pick their pockets.",
+        "name": "urchin",
+        "diff": 1,
+        "size": "½",
+        "anc": "human",
+        "paths": "",
+        "per": 10,
+        "def": 12,
+        "armor": null,
+        "health": 8,
+        "ins": 0,
+        "corr": 0,
+        "str": 8,
+        "agi": 12,
+        "int": 9,
+        "will": 8,
+        "speed": 10,
+        "prof": "Urchin.",
+        "attack":[
+            {
+            "weapon": "Stone",
+            "range": "short range",
+            "bonus": "+2",
+            "damage": "1"
+            }
+        ],
+        "equip": "Cindercloth (II p.7)."
+    }
+]

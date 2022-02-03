@@ -1,0 +1,315 @@
+[
+    {
+        "img": "./img/pic/animal_trainer.png",
+        "desc": "Animal trainers have spent many years raising a specific type of animal and have a deep understanding of their behaviors and temperaments.",
+        "name": "animal trainer",
+        "diff": 1,
+        "size": 1,
+        "anc": "human",
+        "paths": "",
+        "per": 10,
+        "def": 11,
+        "armor": "soft leather",
+        "health": 10,
+        "ins": 0,
+        "corr": 0,
+        "str": 10,
+        "agi": 10,
+        "int": 10,
+        "will": 10,
+        "speed": 10,
+        "prof": "Animal trainer such as falconer or houndmaster.",
+        "talent":[
+            {
+            "name": "Skill Training",
+            "desc": "The animal trainer can use an action to remove the frightened affliction from one animal it can reach."
+            }
+        ],
+        "equip": "An animal that's friendly to the animal trainer."
+    },
+    {
+        "img": "./img/pic/bandit.png",
+        "desc": "Hardship turns ordinary men and women to banditry to make ends meet. In places ravaged by war, famine, or disease, they take up arms against travelers and their wealthier neighbors to get what they need.",
+        "name": "bandit",
+        "diff": 1,
+        "size": 1,
+        "anc": "human",
+        "paths": "",
+        "per": 10,
+        "def": 12,
+        "armor": "soft leather",
+        "health": 10,
+        "ins": 1,
+        "corr": 1,
+        "str": 10,
+        "agi": 11,
+        "int": 9,
+        "will": 8,
+        "speed": 10,
+        "prof": "Bandit or highway robber.",
+        "attack":[
+            {
+                "weapon": "Bow",
+                "range": "long range",
+                "bonus": "+1",
+                "damage": "1d6"
+            },
+            {
+                "weapon": "Knife",
+                "range": "melee or short range",
+                "bonus": "+0",
+                "damage": "1d3"
+            }
+        ],
+        "equip": "A pouch with 1d6 bits and quiver with 12 arrows."
+    },
+    {
+        "img": "./img/pic/brigand.png",
+        "desc": "Brigands terrorize the countryside. They seek out isolated homes and farmsteads, kicking in doors and brutalize anyone they find inside. After killing their victims, they take anything of value and light the place on fire. Brigands may be former soldiers, tough individuals fallen on hard times, or just cruel and wicked people exploiting the present difficulties to take what they want without fear of repercussion.",
+        "name": "brigand",
+        "diff": 5,
+        "size": 1,
+        "anc": "human",
+        "paths": "warrior",
+        "per": 9,
+        "def": 15,
+        "armor": "brigandine, large s.",
+        "health": 18,
+        "ins": 2,
+        "corr": 2,
+        "str": 13,
+        "agi": 10,
+        "int": 9,
+        "will": 10,
+        "speed": 10,
+        "prof": "Brigand or outlaw.",
+        "attack":[
+            {
+                "weapon": "Axe",
+                "range": "melee",
+                "bonus": "+3 with 1 boon",
+                "damage": "1d6 +1"
+            },
+            {
+                "weapon": "Hatchet",
+                "range": "melee or short range",
+                "bonus": "+3 with 1 boon",
+                "damage": "1d3"
+            }
+        ],
+        "equip": "A wanted poster showing the brigand's face and 3 torches"
+    },
+    {
+        "img": "./img/pic/gatherer.png",
+        "desc": "Simple men and women who go into the wild to bring food to their villages",
+        "name": "gatherer",
+        "diff": 1,
+        "size": 1,
+        "anc": "human",
+        "paths": "",
+        "per": 10,
+        "def": 10,
+        "armor": null,
+        "health": 10,
+        "ins": 0,
+        "corr": 0,
+        "str": 10,
+        "agi": 10,
+        "int": 9,
+        "will": 8,
+        "speed": 10,
+        "prof": "A gatherer profession such as:",
+        "list":["Fisher *(fishing pole and tackle box)","Forager *(backpack)","Trapper *(tool kit)"],
+        "talent":[
+            {
+            "name": "Skill Training",
+            "desc": "The gatherer can spend 1 hour fishing, foraging, or trapping to provide nourishment for up to 5 people."
+            }
+        ],
+        "attack":[
+            {
+                "weapon": "Knife",
+                "range": "melee or short range",
+                "bonus": "+0",
+                "damage": "1d3"
+                }
+        ],
+        "equip": "A week of rations plus one item related to its profession *."
+    },
+    {
+        "img": "./img/pic/guide.png",
+        "desc": "Guides know the lay of the land and are invaluable in reaching a faraway destination.",
+        "name": "guide",
+        "diff": 1,
+        "size": 1,
+        "anc": "human",
+        "paths": "",
+        "per": 10,
+        "def": 10,
+        "armor": null,
+        "health": 10,
+        "ins": 0,
+        "corr": 0,
+        "str": 10,
+        "agi": 10,
+        "int": 10,
+        "will": 10,
+        "speed": 10,
+        "prof": "Guide or pioneer.",
+        "talent":[
+            {
+            "name": "Skill Training",
+            "desc": "While the guide is with a group in a wilderness environment, the group cannot become lost."
+            }
+        ],
+        "attack":[
+            {
+            "weapon": "Staff",
+            "range": "melee",
+            "bonus": "+0",
+            "damage": "1d6 +1"
+            }
+        ],
+        "equip": "A map of the region."
+    },
+    {
+        "img": "./img/pic/hermit.png",
+        "desc": "Hermits isolate themselves in remote places so they don't have to deal with others. They are often misfits and prefer not to be disturbed, but they are very knowledgeable about the area they live in.",
+        "name": "hermit",
+        "diff": 1,
+        "size": 1,
+        "anc": "human",
+        "paths": "",
+        "per": 10,
+        "def": 10,
+        "armor": null,
+        "health": 10,
+        "ins": 1,
+        "corr": 0,
+        "str": 10,
+        "agi": 10,
+        "int": 10,
+        "will": 10,
+        "speed": 10,
+        "prof": "Hermit.",
+        "equip": "A week of rations and a waterskin."
+    },
+    {
+        "img": "./img/pic/hunter.png",
+        "desc": "Hunting.",
+        "name": "hunter",
+        "diff": 5,
+        "size": 1,
+        "anc": "human",
+        "paths": "hunter",
+        "per": 11,
+        "def": 14,
+        "armor": "hard leather",
+        "health": 15,
+        "ins": 0,
+        "corr": 0,
+        "str": 11,
+        "agi": 12,
+        "int": 10,
+        "will": 10,
+        "speed": 10,
+        "prof": "Hunter or poacher.",
+        "talent":[
+            {
+            "name": "Skill Training",
+            "desc": "The hunter can spend 1 hour hunting to provide nourishment for up to 5 people."
+            },
+            {
+                "name": "Stealthy",
+                "desc": "The huter makes challenge rolls to hide or sneak with 1 boon."
+            }
+        ],
+        "attack":[
+            {
+                "weapon": "Bow",
+                "range": "long range",
+                "bonus": "+2 with 1 boon",
+                "damage": "1d6"
+            },
+            {
+                "weapon": "Knife",
+                "range": "melee or short range",
+                "bonus": "+2 with 1 boon",
+                "damage": "1d3"
+            },
+            {
+                "weapon": "Spear",
+                "range": "melee or short range",
+                "bonus": "+2 with 1 boon",
+                "damage": "1d6"
+            }
+        ],
+            "equip": "A quiver with 12 arrows and a sack with scavenged supplies plus 1d6 bits."
+        },
+    {
+        "img": "./img/pic/whaler.png",
+        "desc": "Whalers risk their lives sailing small ships into the deep ocean to hunt whales. Throwing their harpoons at her and then dragging her onto her decks to bring them to shore.",
+        "name": "whaler",
+        "diff": 1,
+        "size": 1,
+        "anc": "human",
+        "paths": "",
+        "per": 10,
+        "def": 10,
+        "armor": null,
+        "health": 11,
+        "ins": 0,
+        "corr": 0,
+        "str": 11,
+        "agi": 10,
+        "int": 10,
+        "will": 10,
+        "speed": 10,
+        "prof": "Whaler.",
+        "attack":[
+            {
+            "weapon": "Harpoon",
+            "range": "melee or medium range",
+            "bonus": "+1",
+            "damage": "1d3 plus Tethered"
+            },
+            {
+            "weapon": "Tethered",
+            "range": "WaU p.6",
+            "bonus": "A creature with a physical body becomes tethered. While tethered, the creature cannot move away from the whaler. If the whaler would move away from the tethered creature, it must either drop the line or make a Strength attack roll against the target’s Strength, dragging the target with it when it moves on a success. An whaler can have just one creature tethered at a time. A tethered creature can remove the affliction by using an action to rip the harpoon free, which deals 1d6 extra damage to that creature.",
+            "damage": null
+            }
+        ],
+        "equip": "A coil of rope."
+    },
+    {
+        "img": "./img/pic/woodcutter.png",
+        "desc": "Lumberjacks spend their time in the forests cutting down trees for wood.",
+        "name": "woodcutter",
+        "diff": 1,
+        "size": 1,
+        "anc": "human",
+        "paths": "",
+        "per": 9,
+        "def": 10,
+        "armor": null,
+        "health": 12,
+        "ins": 0,
+        "corr": 0,
+        "str": 12,
+        "agi": 10,
+        "int": 9,
+        "will": 10,
+        "speed": 10,
+        "prof": "Woodcutter.",
+        "attack":[
+            {
+            "weapon": "Axe",
+            "range": "melee",
+            "bonus": "+2",
+            "damage": "1d6 +2"
+            }
+        ],
+        "equip": "A waterskin."
+    }
+]

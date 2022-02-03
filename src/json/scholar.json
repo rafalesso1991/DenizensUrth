@@ -1,0 +1,193 @@
+[
+    {
+        "img": "./img/pic/academic.png",
+        "desc": "Field scientists who prefer to spend their time exploring ancient ruins and collecting new data rather than reading books in libraries.",
+        "name": "academic",
+        "diff": 10,
+        "size": 1,
+        "anc": "human",
+        "paths": "rogue (academic)",
+        "per": 13,
+        "def": 11,
+        "armor": null,
+        "health": 15,
+        "ins": 0,
+        "corr": 0,
+        "str": 9,
+        "agi": 11,
+        "int": 13,
+        "will": 10,
+        "speed": 10,
+        "prof": "(Choose one academic profession from the 'scholar')",
+        "talent":[
+            {
+                "name": "Trickery",
+                "desc": "Once per round, the academic can make a challenge roll or an attack roll with 1 boon."
+                }
+        ],
+        "action":[
+            {
+            "name": "Problem-Solver",
+            "desc": "The academic can use an action, or a triggered action on its turn, to make an Intellect challenge roll. On a success, the academic gains 1d3 + 1 insights that retains until use them or until the academic uses this talent again. On a failure, the academic loses this talent until it completes a rest. On its turn, the academic can spend one insight to gain any one of the following benefits:",
+            "list": ["Make its next attack roll before the end of the round with 1 boon.","Make its next challenge roll before the end of the round with 1 boon.","Impose 1 bane on a challenge roll made by a creature within short range before the end of the round.","Deal 1d3 extra damage on an attack it makes before the end of the round"]
+            }
+        ],
+        "equip": "A magnifying glass."
+    },
+    {
+        "img": "./img/pic/app_wizard.png",
+        "desc": "Apprentice wizards have learned enough magic to safely venture into the world and put their training to use. They hire out their services or accompany groups on expeditions in hopes of uncovering greater secrets of magical power.",
+        "name": "apprendice wizard",
+        "diff": 1,
+        "size": 1,
+        "anc": "human",
+        "paths": "magician",
+        "per": 12,
+        "def": 12,
+        "armor": "arcane armor",
+        "health": 13,
+        "ins": 0,
+        "corr": 0,
+        "str": 9,
+        "agi": 10,
+        "int": 12,
+        "will": 12,
+        "speed": 10,
+        "prof": "Magical theory",
+        "attack":[
+            {
+            "weapon": "Staff",
+            "range": "melee",
+            "bonus": "+0",
+            "damage": "1d6 +1"
+            }
+        ],
+        "pow": 1,
+        "imp": "Staff",
+        "magic": [
+            {
+                "trad": "Arcane",
+                "spell": [
+                    {
+                    "name": "arcane armor",
+                    "slots": 2
+                    },
+                    {
+                    "name": "arcane shield",
+                    "slots": 1
+                    },
+                    {
+                    "name": "unerring darts",
+                    "slots": 1
+                    }
+                ]
+            },
+            {
+                "trad": "Fire",
+                "spell": [
+                    {
+                    "name": "flame missile",
+                    "slots": 2
+                    },
+                    {
+                    "name": "fire blast",
+                    "slots": 1
+                    }
+                ]
+            },
+            {
+                "trad": "Protection",
+                "spell": [
+                    {
+                    "name": "secure site",
+                    "slots": 2
+                    }
+                ]
+            },
+            {
+                "trad": "Magician",
+                "spell": [
+                    {
+                    "name": "sense magic",
+                    "slots": 2
+                    }
+                ]
+            }
+        ],
+        "equip": "A book and an incantation of a rank 0 spell."
+    },
+    {
+        "img": "./img/pic/doctor.png",
+        "desc": "Coarse connoisseurs in certain areas of knowledge.",
+        "name": "doctor",
+        "diff": 10,
+        "size": 1,
+        "anc": "human",
+        "paths": "rogue (leech)",
+        "per": 12,
+        "def": 13,
+        "armor": "soft leather",
+        "health": 15,
+        "ins": 0,
+        "corr": 0,
+        "str": 9,
+        "agi": 12,
+        "int": 12,
+        "will": 10,
+        "speed": 10,
+        "prof": "Medicine and surgery.",
+        "talent":[
+            {
+                "name": "Trickery",
+                "desc": "Once per round, the doctor can make a challenge roll or an attack roll with 1 boon."
+            }
+        ],
+        "attack":[
+            {
+            "weapon": "Sword-stick",
+            "range": "melee",
+            "bonus": "+2",
+            "damage": "1d6 +1, plus 1d6 if the doctor had 1 boon from Trickery"
+            }
+        ],
+        "action":[
+            {
+            "name": "Physician's Cure",
+            "desc": "The doctor can use an action and expend a use from its healing kit to treat one target creature. The doctor makes an Intellect challenge roll. On a success, the target heals 1 damage and the doctor can remove one of the following afflictions from the target: fatigued, frightened, impaired, or poisoned. If the affliction has permanent duration, it cannot be removed using this talent."
+            }
+        ],
+        "equip": "A pouch with 1d6 ss, a healing kit (6 uses) and sawbones tools (II p.7)."
+    },
+    {
+        "img": "./img/pic/scholar.png",
+        "desc": "Coarse connoisseurs in specific areas of knowledge.",
+        "name": "scholar",
+        "diff": 1,
+        "size": 1,
+        "anc": "human",
+        "per": 13,
+        "def": 10,
+        "armor": null,
+        "health": 9,
+        "ins": 0,
+        "corr": 0,
+        "str": 9,
+        "agi": 10,
+        "int": 13,
+        "will": 10,
+        "speed": 10,
+        "prof": "Choose one master area and two expert areas:",
+        "list":["Architecture and engineering","Astronomy and navigation","Etiquette, heraldry, law, and politics","History and geography (pre-imperial)","History and geography (post-imperial)","Magical theory","Literature, poetry and the arts","Natural sciences","Philosophy and theology","Occult"],
+        "talent":[
+            {
+                "name": "Area of Scholarship",
+                "desc": "The scholar can recall obscure information related to the area of mastery and uncommon information related to the areas of expertise."
+            },
+            {
+            "name": "Scholarly Guidance",
+            "desc": "Each creature friendly to the scholar and within short range makes Intellect rolls with 1 boon and imposes 1 bane on rolls made against their Intellect."
+            }
+        ],
+        "equip": "Several books and a pouch with 1d6 ss"
+    }
+]

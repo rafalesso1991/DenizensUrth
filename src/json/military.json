@@ -1,0 +1,150 @@
+[
+    {
+        "img": "./img/pic/guard.png",
+        "desc": "Guardians of the Galaxy.",
+        "name": "guard",
+        "diff": 1,
+        "size": 1,
+        "anc": "human",
+        "paths": "",
+        "per": 10,
+        "def": 10,
+        "armor": null,
+        "health": 11,
+        "ins": 0,
+        "corr": 0,
+        "str": 11,
+        "agi": 10,
+        "int": 10,
+        "will": 10,
+        "speed": 10,
+        "prof": "Goon or Henchman.",
+        "attack":[
+            {
+                "weapon": "Club",
+                "range": "melee",
+                "bonus": "+1",
+                "damage": "1d6"
+            }
+        ],
+        "equip": "A pouch with 1d6 bits."
+    },
+    {
+        "img": "./img/pic/jailer.png",
+        "desc": "Guardians of the Galaxy.",
+        "name": "jailer",
+        "diff": 1,
+        "size": 1,
+        "anc": "human",
+        "paths": "",
+        "per": 10,
+        "def": 13,
+        "armor": "brigandine",
+        "health": 11,
+        "ins": 0,
+        "corr": 0,
+        "str": 11,
+        "agi": 10,
+        "int": 10,
+        "will": 10,
+        "speed": 10,
+        "prof": "Jailer or Torturer.",
+        "attack":[
+            {
+                "weapon": "Club",
+                "range": "melee",
+                "bonus": "+1",
+                "damage": "1d6"
+            }
+        ],
+        "equip": "A lantern and torturer's tools."
+    },
+    {
+        "img": "./img/pic/patroller.png",
+        "desc": "Patrollers protect their communities as members of the town watch or city guard. They enforce the law and round up criminals.",
+        "name": "patroller",
+        "diff": 1,
+        "size": 1,
+        "anc": "human",
+        "paths": "",
+        "per": 10,
+        "def": 11,
+        "armor": "soft l.",
+        "health": 11,
+        "ins": 0,
+        "corr": 0,
+        "str": 11,
+        "agi": 10,
+        "int": 10,
+        "will": 10,
+        "speed": 10,
+        "prof": "Patroller.",
+        "attack":[
+            {
+                "weapon": "Spear",
+                "range": "melee or short range",
+                "bonus": "+1",
+                "damage": "1d6"
+            }
+        ],        "equip": "A horn and 3 torches."
+    },
+    {
+        "img": "./img/pic/town_watch.png",
+        "desc": "The town watch are the law enforcers in most towns and villages",
+        "name": "town watch",
+        "diff": 5,
+        "size": 1,
+        "anc": "human",
+        "paths": "warrior",
+        "per": 10,
+        "def": 13,
+        "armor": "brigandine",
+        "health": 17,
+        "ins": 0,
+        "corr": 0,
+        "str": 12,
+        "agi": 10,
+        "int": 10,
+        "will": 11,
+        "speed": 10,
+        "prof": "Guard.",
+        "attack":[
+            {
+                "weapon": "Spear",
+                "range": "melee or short range",
+                "bonus": "+2 with 1 boon",
+                "damage": "1d6"
+            }
+        ],        "equip": "A uniform, horn, lantern and a flask of oil."
+    },
+    {
+        "img": "./img/pic/city_guard.png",
+        "desc": "In large cities guards are better prepared than in villages to deal with the multiple day-to-day criminals and they are also better paid",
+        "name": "city guard",
+        "diff": 10,
+        "size": 1,
+        "anc": "human",
+        "paths": "warrior",
+        "per": 10,
+        "def": 15,
+        "armor": "mail",
+        "health": 23,
+        "ins": 0,
+        "corr": 0,
+        "str": 13,
+        "agi": 10,
+        "int": 10,
+        "will": 10,
+        "speed": 10,
+        "prof": "Guard.",
+        "attack":[
+            {
+                "weapon": "Sword",
+                "range": "melee",
+                "bonus": "+3 with 1 boon",
+                "damage": "2d6 +2"
+            }
+        ],
+        "equip": "A uniform, wistle, spotlight lantern and a flask of oil)"
+    }
+]

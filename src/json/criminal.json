@@ -1,0 +1,377 @@
+[
+    {
+        "img": "./img/pic/criminal.png",
+        "desc": "Criminals work outside the limits of the law. Most prey on the wealthy, favoring merchants and nobles over the poor and downtrodden. They usually belong to a organized crime syndicate or at least to a gang.",
+        "name": "criminal",
+        "diff": 5,
+        "size": 1,
+        "anc": "human",
+        "paths": "rogue",
+        "per": 12,
+        "def": 13,
+        "armor": "soft l.",
+        "health": 13,
+        "ins": 0,
+        "corr": 0,
+        "str": 10,
+        "agi": 12,
+        "int": 12,
+        "will": 9,
+        "speed": 10,
+        "prof": "A criminal profession such as:",
+        "list":["Burglar or grave robber *(set of lock picks)","Fence or smuggler *(contraband items)","Forger *(tool kit)","Gambler *(pair of dice or deck of cards)","Pickpocket *(stolen purse containing 1d6 cp)","Poacher or rustler *(coil of rope)"],
+        "talent":[
+            {
+            "name": "Trickery",
+            "desc": "Once per round, the criminal can make a challenge roll or an attack roll with 1 boon."
+            }
+        ],
+        "attack":[
+            {
+            "weapon": "Dagger",
+            "range": "melee or short range",
+            "bonus": "+2",
+            "damage": "1d3, plus 1d6 if the criminal had 1 boon from Trickery"
+            }
+        ],
+        "equip": "A pouch with 2d6 bits plus one item related to its profession *."
+    },
+    {
+        "img": "./img/pic/guerrilla.png",
+        "desc": "Guerrilla adopts a fighting style that favors dashing, attacking, and retreating quickly. Guerrilla tactics can frustrate their opponents until they start making mistakes and in the long run, make it too costly to fight them with an organized army and ultimately losing by wear off.",
+        "name": "guerrilla",
+        "diff": 10,
+        "size": 1,
+        "anc": "human",
+        "paths": "rogue (skirmisher)",
+        "per": 10,
+        "def": 14,
+        "armor": "soft l.",
+        "health": 16,
+        "ins": 0,
+        "corr": 0,
+        "str": 10,
+        "agi": 13,
+        "int": 10,
+        "will": 10,
+        "speed": 10,
+        "prof": "Guerrilla soldier.",
+        "talent":[
+            {
+            "name": "Trickery",
+            "desc": "Once per round, the guerrilla can make a challenge roll or an attack roll with 1 boon."
+            }
+        ],
+        "attack":[
+            {
+            "weapon": "Bow",
+            "range": "long r.",
+            "bonus": "+3",
+            "damage": "1d6, plus 1d6 if the guerrilla had 1 boon from Trickery"
+            }
+        ],
+        "action":[
+            {
+            "name": "Skirmish",
+            "desc": "The skirmisher can use an action to move up to half his Speed (this move does not trigger free attacks) and make an attack at any point during this move that deals an extra 1d6 damage.."
+            }
+        ],
+        "equip": "A quiver with 12 arrows."
+    },
+    {
+        "img": "./img/pic/killer.png",
+        "desc": "Hired killers murder for pay. They can usually be found in disreputable taverns and brothels, where they spend their ill-gained coin on distractions until they can line up their next job.",
+        "name": "hired killer",
+        "diff": 10,
+        "size": 1,
+        "anc": "human",
+        "paths": "rogue (killer)",
+        "per": 9,
+        "def": 13,
+        "armor": "soft l.",
+        "health": 18,
+        "ins": 3,
+        "corr": 3,
+        "str": 12,
+        "agi": 12,
+        "int": 9,
+        "will": 10,
+        "speed": 10,
+        "prof": "Murderer.",
+        "talent":[
+        {
+        "name": "Trickery",
+        "desc": "Once per round, the killer can make a challenge roll or an attack roll with 1 boon."
+        }
+        ],
+        "attack":[
+            {
+            "weapon": "Large Knife",
+            "range": "melee",
+            "bonus": "+2",
+            "damage": "1d6, plus 2d6 if the killer had 1 boon from Trickery"
+            }
+        ],
+        "special":[
+            {
+            "name": "Garrote",
+            "desc": "The killer uses an action to make an Agility attack roll against the Agility of a Size 2 or less creature it can reach, wielding the garrote with both hands. On a success the target takes 1d6 damage, becomes grabbed until the end of the next round and cannot talk while grabbed this way. If the target attempts to escape, it makes its attack roll with 1 bane (see Escape and Grab SotDL p.52)."
+            }
+        ],
+        "equip": "A draw showing the contract's face and a pouch with half the payment for the job."
+    },
+    {
+        "img": "./img/pic/inciter.png",
+        "desc": "Inciters might take a stand against tyranny, injustice, or evil, or they might fight against an institution, organization, or people dedicated to a cause they abhor. Like firebrands, inciters inspire others to join their crusade and help them topple whatever it is that they oppose. Inciter goad their companions into action, encouraging them by example to never give up.",
+        "name": "inciter",
+        "diff": 10,
+        "size": 1,
+        "anc": "human",
+        "paths": "rogue (inciter)",
+        "per": 10,
+        "def": 14,
+        "armor": "soft l.",
+        "health": 16,
+        "ins": 0,
+        "corr": 0,
+        "str": 10,
+        "agi": 13,
+        "int": 10,
+        "will": 10,
+        "speed": 10,
+        "prof": "Agitator, rebel, saboteur, or terrorist.",
+        "talent":[
+            {
+            "name": "Incite to Violence",
+            "desc": "When the inciter gets a success on an attack roll, it can choose one creature within short range that can see the inciter and grant it 1 boon on the next attack roll the creature makes before the end of the next round."
+            },
+            {
+            "name": "Trickery",
+            "desc": "Once per round, the criminal can make a challenge roll or an attack roll with 1 boon."
+            }
+        ],
+        "attack":[
+            {
+            "weapon": "Scythe",
+            "range": "melee",
+            "bonus": "+3",
+            "damage": "1d6 +2, plus 1d6 if the inciter had 1 boon from Trickery"
+            }        ],
+        "equip": "1d6 pamphlets related to the cause for which the inciter fights."
+    },
+    {
+        "img": "./img/pic/pirate.png",
+        "desc": "Pirates terrorize merchant ships on the high seas. They board the deck, loot what they want and put the knife to those who don't cooperate. Most come from the Pirate Islands.",
+        "name": "pirate",
+        "diff": 5,
+        "size": 1,
+        "anc": "human",
+        "paths": "warrior",
+        "per": 9,
+        "def": 13,
+        "armor": "soft l.",
+        "health": 16,
+        "ins": 1,
+        "corr": 1,
+        "str": 11,
+        "agi": 12,
+        "int": 10,
+        "will": 10,
+        "speed": 10,
+        "prof": "Pirate.",
+        "attack":[
+            {
+            "weapon": "Cutlass",
+            "range": "FC p.31 melee",
+            "bonus": "+2 with 1 boon",
+            "damage": "1d6 +1"
+            }
+        ],
+        "special":[
+            {
+            "name": "Disarm",
+            "desc": "(SotDL p.51) The pirate makes an Agility attack roll with 2 boons against the higher of one target's Strength or Agility. On a success, the target drops one object it is holding of the pirate's choice."
+            }
+        ],
+        "equip": "Yo ho ho and a bottle of rum."
+    },
+    {
+        "img": "./img/pic/ruffian.png",
+        "desc": "Ruffians might be big, tough, and scary, or just have a way with words that causes people they face down to quail with fear, whether beacuse they vow to tear some bastard's face off or to kill innocent children if their parents don't follow instructions to the letter. Ruffian's willingness to use brutality and violence without hesitation makes everyone know that their threats are not empty ones.",
+        "name": "ruffian",
+        "diff": 10,
+        "size": 1,
+        "anc": "human",
+        "paths": "rogue (ruffian)",
+        "per": 11,
+        "def": 13,
+        "armor": "hard l.",
+        "health": 17,
+        "ins": 2,
+        "corr": 2,
+        "str": 11,
+        "agi": 11,
+        "int": 11,
+        "will": 10,
+        "speed": 10,
+        "prof": "Highway robber, outlaw, or raider.",
+        "talent":[
+            {
+            "name": "Trickery",
+            "desc": "Once per round, the ruffian can make a challenge roll or an attack roll with 1 boon."
+            }
+        ],
+        "attack":[
+            {
+            "weapon": "Sword",
+            "range": "melee",
+            "bonus": "+1",
+            "damage": "1d6, plus 1d6 if the ruffian had 1 boon from Trickery"
+            }
+        ],
+        "action":[
+            {
+            "name": "Threats",
+            "desc": "The ruffian uses an action or a triggered action on its turn to make an Intellect attack roll against the Will of one target creature within short range of it that can hear and see it. On a success, the target becomes frightened for 1 round. On a failure, the target becomes immune to the ruffian's use of Threats until the target completes a rest"
+            }
+        ],
+    
+        "equip": "A wanted poster showing the ruffian's face."
+    },
+    {
+        "img": "./img/pic/scoundrel.png",
+        "desc": "Scoundrels always know what to say to make someone do what they want them to do. They size up their prey, figure out what they fear or desire most, and then twist them up with lies until people sees them as friends and allies, even if it is for a short time, which is usually enough time to defuse a hostile situation or make a good escape.",
+        "name": "scoundrel",
+        "diff": 10,
+        "size": 1,
+        "anc": "human",
+        "paths": "rogue (scoundrel)",
+        "per": 12,
+        "def": 13,
+        "armor": "soft l.",
+        "health": 15,
+        "ins": 0,
+        "corr": 0,
+        "str": 9,
+        "agi": 12,
+        "int": 12,
+        "will": 10,
+        "speed": 10,
+        "prof": "Charlatan, confidence artist, informant, or spy.",
+        "talent":[
+            {
+            "name": "Trickery",
+            "desc": "Once per round, the scoundrel can make a challenge roll or an attack roll with 1 boon."
+            }
+        ],
+        "attack":[
+            {
+            "weapon": "Small Sword",
+            "range": "melee",
+            "bonus": "+2",
+            "damage": "1d6, plus 1d6 if the inciter had 1 boon from Trickery"
+            }
+        ],
+        "action":[
+            {
+            "name": "Subterfuge",
+            "desc": "The scoundrel makes an Intellect attack roll against the Intellect of one creature within short range that can hear and understand what the merchant says. On a success, the target becomes charmed for 1 round or until the merchant attacks it. On a failure, the target becomes immune to the merchant's use of Subterfuge until the target completes a rest."
+            }
+        ],
+        "equip": "1d6 pamphlets related to the cause for which the inciter fights."
+    },
+    {
+        "img": "./img/pic/thug.png",
+        "desc": "Bullies, goons, and henchmen. Thugs are dull-witted and up-to-no-good individuals whose usually makes a living muggin lost characters or doing the dirty job of a sinister patron",
+        "name": "thug",
+        "diff": 1,
+        "size": 1,
+        "anc": "human",
+        "paths": "",
+        "per": 10,
+        "def": 10,
+        "armor": null,
+        "health": 11,
+        "ins": 1,
+        "corr": 1,
+        "str": 11,
+        "agi": 10,
+        "int": 9,
+        "will": 8,
+        "speed": 10,
+        "prof": "Mugger or thug.",
+        "attack":[
+            {
+            "weapon": "Knife",
+            "range": "melee or short range",
+            "bonus": "+1",
+            "damage": "1d3"
+            }
+        ],
+        "equip": "A pouch with 1d6 bits."
+    },
+    {
+        "img": "./img/pic/slave.png",
+        "desc": "Whether they are war prisoners taken from the orc warbands in Caecras, or poor souls about to be sold on the open streets of the city of Dis. Slaves have little or no hope of regaining their freedom, and many (through a lot of whipping) obey their master's orders without a second thought. Yet, slavery is expressly illegal in most civilized countries.",
+        "name": "slave",
+        "diff": 1,
+        "size": 1,
+        "anc": "human",
+        "paths": "",
+        "per": 10,
+        "def": 10,
+        "armor": null,
+        "health": 10,
+        "ins": 3,
+        "corr": 0,
+        "str": 10,
+        "agi": 10,
+        "int": 9,
+        "will": 8,
+        "speed": 10,
+        "prof": "Slave.",
+        "talent":[
+            {
+            "name": "Broken",
+            "desc": "A slave makes challenge rolls to resist or remove the frightened affliction with 1 bane."
+            }
+        ],
+        "equip": "Manacles."
+    },
+    {
+        "img": "./img/pic/overseer.png",
+        "desc": "Charged with maintaining order among the slaves overseers are cruel bullies by nature, who unflinchingly dish out pain.",
+        "name": "overseer",
+        "diff": 10,
+        "size": 1,
+        "anc": "human",
+        "paths": "enforcer",
+        "per": 10,
+        "def": 11,
+        "armor": null,
+        "health": 20,
+        "ins": 1,
+        "corr": 3,
+        "str": 10,
+        "agi": 11,
+        "int": 10,
+        "will": 12,
+        "speed": 10,
+        "prof": "Slaver.",
+        "attack":[
+            {
+            "weapon": "Whip",
+            "range": "melee reach +1",
+            "bonus": "+1 with 1 boon if target creature has at least one affliction",
+            "damage": "1d3, plus 1d6 or impose the impaired or slowed affliction on target creature that lasts until the EotR."
+            }
+        ],
+        "action":[
+            {
+            "name": "Demoralize",
+            "desc": "The overseer can use an action to menace make a Will attack roll against the Will of one target creature within short range that can see and hear the overseer. On a success, the target becomes frightened for 1 minute. On a failure, the target becomes immune to the oversee's use of Demoralize until it completes a rest."
+            }
+        ],
+        "equip": "A pouch with 1d6 ss."
+    }
+]

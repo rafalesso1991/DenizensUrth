@@ -1,0 +1,346 @@
+[
+    {
+        "img": "./img/pic/cultist.png",
+        "desc": "Cultists include any groups of like-minded individuals pledged to serve a mysterious power that might or might not be a god. Many cults, in fact, venerate the Demon Lord in one of its many aspects without realizing their work advances the aims of this terrifying power.",
+        "name": "cultist",
+        "diff": 1,
+        "size": 1,
+        "anc": "human",
+        "per": 10,
+        "def": 11,
+        "armor": null,
+        "health": 10,
+        "ins": 4,
+        "corr": 2,
+        "str": 10,
+        "agi": 11,
+        "int": 9,
+        "will": 8,
+        "speed": 10,
+        "prof": "Cultist",
+        "talent":[
+            {
+            "name": "Mad Certainty",
+            "desc": "When a cultist makes a challenge roll or an attack roll, it can make the roll with 1 boon. On a failure, the cultist takes 1d6 damage."
+            }
+        ],
+        "attack":[
+            {
+            "weapon": "Sickle",
+            "range": "melee",
+            "bonus": "+1",
+            "damage": "1d6"
+            }
+        ],
+        "equip": "Ceremonial robes."
+    },
+    {
+        "img": "./img/pic/acolyte.png",
+        "desc": "Acolytes of the New God travel the lands of the Empire, working to combat corruption's spread and fight agents sworn to the Demon Lord.",
+        "name": "Acolyte of the New God",
+        "diff": 10,
+        "size": 1,
+        "anc": "human",
+        "paths": "priest of the New God",
+        "per": 10,
+        "def": 15,
+        "armor": "brigandine, large s.",
+        "health": 20,
+        "ins": 0,
+        "corr": 0,
+        "str": 11,
+        "agi": 10,
+        "int": 10,
+        "will": 12,
+        "speed": 10,
+        "prof": "Acolyte of the New God plus one language.",
+        "attack":[
+            {
+            "weapon": "Mace",
+            "range": "melee",
+            "bonus": "+1",
+            "damage": "1d6"
+            }
+        ],
+        "action":[
+            {
+            "name": "Prayer",
+            "desc": "When a creature within short range of the acolyte makes a challenge roll or an attack roll, the acolyte can use a triggered action to grant 1 boon to the triggering roll. An attack roll with a weapon deals 1d6 extra damage."
+            }
+        ],
+        "pow": 1,
+        "imp": "Ouroboros Symbol",
+        "magic": [
+            {
+                "trad": "Celestial",
+                "spell": [
+                    {
+                    "name": "light",
+                    "slots": 2
+                    }
+                ]
+            },
+            {
+                "trad": "Life",
+                "spell": [
+                    {
+                    "name": "minor healing",
+                    "slots": 2
+                    },
+                    {
+                    "name": "cure",
+                    "slots": 1
+                    }
+                ]
+            },
+            {
+                "trad": "Theurgy",
+                "spell": [
+                    {
+                    "name": "denounce",
+                    "slots": 2
+                    },
+                    {
+                    "name": "blessing",
+                    "slots": 1
+                    }
+                ]
+            }
+        ],
+        "equip": "A dose of holy water and a holy symbol."
+    },
+    {
+        "img": "./img/pic/initiate.png",
+        "desc": "Initiates of the Old Faith worship the Elder Gods and safeguard the land. Most live on the edges of towns or in the depths of the wilderness, where they can commune with the spirits of nature and perform their rites without interference.",
+        "name": "initiate of the Old Faith",
+        "diff": 10,
+        "size": 1,
+        "anc": "human",
+        "paths": "priest of the old faith",
+        "per": 10,
+        "def": 14,
+        "armor": "hard leather, large s.",
+        "health": 20,
+        "ins": 0,
+        "corr": 0,
+        "str": 11,
+        "agi": 10,
+        "int": 10,
+        "will": 12,
+        "speed": 10,
+        "prof": "Academic (nature) plus one of the following:",
+        "list":["Astrology / Folklore / Geography / Medicine / or Religion"],
+        "talent":[
+            {
+            "name": "Animal Friendship",
+            "desc": "In social situations, the initiate makes attack rolls to influence animals with 1 boon."
+            }
+        ],
+        "attack":[
+            {
+            "weapon": "Sickle",
+            "range": "melee",
+            "bonus": "+1",
+            "damage": "1d6"
+            }
+        ],
+        "action":[
+            {
+            "name": "Prayer",
+            "desc": "When a creature within short range of the initiate makes a challenge roll or an attack roll, the initiate can use a triggered action to grant 1 boon to the triggering roll. An attack roll with a weapon deals 1d6 extra damage."
+            }
+        ],
+        "pow": 1,
+        "imp": "Sickle",
+        "magic": [
+            {
+                "trad": "Life",
+                "spell": [
+                    {
+                    "name": "minor healing",
+                    "slots": 2
+                    },
+                    {
+                    "name": "cure",
+                    "slots": 2
+                    }
+                ]
+            },
+            {
+                "trad": "Nature",
+                "spell": [
+                    {
+                    "name": "oak hide",
+                    "slots": 2
+                    },
+                    {
+                    "name": "overgrowth",
+                    "slots": 1
+                    }
+                ]
+            },
+            {
+                "trad": "Primal",
+                "spell": [
+                    {
+                    "name": "hide from animals",
+                    "slots": 2
+                    }
+                ]
+            }
+        ],
+        "equip": "A healing potion and a holy symbol."
+    },
+    {
+        "img": "./img/pic/app_witch.png",
+        "desc": "On civilization's frontiers, witches act as healers, advisors, and wisdoms, lending their expertise to helping their neighbors overcome challenges the wilderness presents.",
+        "name": "apprendice witch",
+        "diff": 1,
+        "size": 1,
+        "anc": "human",
+        "paths": "priest of Witchcraft",
+        "per": 13,
+        "def": 11,
+        "armor": "robes",
+        "health": 17,
+        "ins": 0,
+        "corr": 0,
+        "str": 9,
+        "agi": 11,
+        "int": 13,
+        "will": 10,
+        "speed": 10,
+        "prof": "Academic (nature) plus one of the following:",
+        "list":["Astrology / Folklore / Geography / Medicine / or Religion"],
+        "attack":[
+            {
+            "weapon": "Staff",
+            "range": "melee",
+            "bonus": "+1",
+            "damage": "1d6 +1"
+            }
+        ],
+        "action":[
+            {
+            "name": "Prayer",
+            "desc": "When a creature within short range of the witch makes a challenge roll or an attack roll, the witch can use a triggered action to grant 1 boon to the triggering roll. An attack roll with a weapon deals 1d6 extra damage."
+            }
+        ],
+        "pow": 1,
+        "imp": "Pentagram",
+        "magic": [
+            {
+                "trad": "Curse",
+                "spell": [
+                    {
+                    "name": "minor healing",
+                    "slots": 2
+                    }
+                ]
+            },
+            {
+                "trad": "Enchantment",
+                "spell": [
+                    {
+                    "name": "bewitch",
+                    "slots": 2
+                    },
+                    {
+                    "name": "charm",
+                    "slots": 1
+                    }
+                ]
+            },
+            {
+                "trad": "Life",
+                "spell": [
+                    {
+                    "name": "minor healing",
+                    "slots": 2
+                    },
+                    {
+                    "name": "cure",
+                    "slots": 1
+                    }
+                ]
+            }
+        ],
+        "equip": "A holy symbol and a incantation of a rank 0 spell."
+    },
+    {
+        "img": "./img/pic/high_cultist.png",
+        "desc": "At the center of every cult stands a high cultist, the leader of the deranged band. Such individuals usually possess strong and magnetic personalities that attract the weak-willed and unstable. High cultists possess true power, sometimes gained by bargaining with devils or from encounters with demonic relics, and they use that power to impress, coerce, and corrupt the people who follow them.",
+        "name": "high cultist",
+        "diff": 1,
+        "size": 1,
+        "anc": "human",
+        "paths": "priest of the Demon Lord",
+        "per": 13,
+        "def": 11,
+        "armor": null,
+        "health": 17,
+        "ins": 4,
+        "corr": 5,
+        "str": 9,
+        "agi": 11,
+        "int": 13,
+        "will": 10,
+        "speed": 10,
+        "prof": "Academic (occult) and cultist.",
+        "talent":[
+            {
+            "name": "Mad Devotion",
+            "desc": "When the cultist makes a challenge roll or an attack roll, it can make the roll with 1 boon. On a failure, the cultist gains 1 insanity."
+            }
+        ],
+        "attack":[
+            {
+            "weapon": "Dagger",
+            "range": "melee or short range",
+            "bonus": "+1",
+            "damage": "1d3"
+            }
+        ],
+        "action":[
+            {
+            "name": "Necessary Sacrifice",
+            "desc": "One target cultist within short range of the high cultist that is friendly to it takes damage equal to the cultist's Health. The high cultist regains the casting of one spell and may cast it immediately."
+            }
+        ],
+        "pow": 1,
+        "imp": "Sacrifical Dagger",
+        "magic": [
+            {
+                "trad": "Demonology",
+                "spell": [
+                    {
+                    "name": "claws of darkness",
+                    "slots": 2
+                    },
+                    {
+                    "name": "demonic guidance",
+                    "slots": 2
+                    },
+                    {
+                    "name": "favor of the demon lord",
+                    "slots": 1
+                    }
+                ]
+            },
+            {
+                "trad": "Forbidden",
+                "spell": [
+                    {
+                    "name": "harm",
+                    "slots": 2
+                    },
+                    {
+                    "name": "obedience",
+                    "slots": 1
+                    }
+                ]
+            }
+        ],
+        "equip": "Ceremonial robes and a book of forbidden knoledge."
+    }
+]

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <%-include('./partials/meta.ejs')%>
+        <title>Main</title>
+    </head>
+    <body class="body">
+        <%-include('./partials/header.ejs')%>
+
+        <main class="main">
+            
+            <div class="npc-card">
+                <img src="/img/pic/doctor.png" alt="doctor">
+                <div class="stadistics">
+                    <div class="NPC-card">
+                        <div class="stadistics">
+                            <div class="name-box">
+                                <h3>name</h3>
+                                <select id="list" onchange="getCommonType(value)">
+                                    <option value="" style="display:none">Choose your card</option>
+                                    <option value="Commoner">Common0</option>
+                                    <option value="Skilled">Common1</option>
+                                    <option value="Expert">Common2</option>
+                                </select>
+                                <div class="diff">
+                                    <h3>diff #</h3>
+                                </div>
+                            </div>
+                            <h4>Size # [frightening/horrifying] descriptor (special)</h4>
+                            <p>
+                                <span>Perception</span> score (+modifier); special senses <br>
+                                <span>Defense</span> # (armor); <span>Health</span> #; <span>Insanity</span> #; <span>Corruption</span> # <br>
+                                <span>Strength</span> # (+#), <span>Agility</span> # (+#), <span>Intellect</span> # (+#),
+                                <span>Will</span> # (+#) <br>
+                                <span>Speed</span> #; special movement traits; <span>Professions</span> Description.<br>
+                                <span>Passive Talent</span> Name and description of how it works. <br>
+                                <ul>
+                                    <li>Examples</li>
+                                </ul>
+                            </p>
+                            <h5>attack options</h5>
+                            <p>
+                                <span>Attack</span> (melee; special) +# with # boon(s) (damage plus attack talent) <br>
+                                <span>Attack</span> (range) +# with # boon(s) (damage plus attack talent) <br>
+                                <span>Attack Talent</span> Description of how it works. <br>
+                            </p>
+                            <h5>special attacks</h5>
+                            <p>
+                                <span>Name</span> Description of how it works. <br>
+                            </p>
+                            <h5>special actions</h5>
+                            <p>
+                                <span>Name</span> Description of how it works.
+                            </p>
+                            <h5>
+                                magic
+                            </h5>
+                            <p>
+                                <span>Power</span> #; <span>Implement</span> of magic to which the caster is attuned <br>
+                                <span>Tradition</span> <em>spell name</em> (spell slots), <em>spell name</em> (#), <em>spell name</em> (#) <br>
+                            </p>
+                            <h5>equipment</h5>
+                            <p>
+                                List of items carried by the character. <br>
+                            </p>
+                        </div>
+                    </div>
+            
+        </main>
+        <%-include('./partials/footer.ejs')%>
+
+    </body>
+
+</html>
