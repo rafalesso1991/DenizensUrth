@@ -1,22 +1,35 @@
-* {
-    box-sizing: border-box;
-    font-family: 'JSL Ancient';
-    margin: 0;
-    padding: 0;
+.main{
+    background-image: url(../img/cover/about.jpg);
+    flex-wrap:nowrap;
 }
-.body{
-    background: #000;
-    min-height: 100vh;
+.main img {
+    opacity:0.65;
+    filter:alpha(opacity=65);
+   }
+.main p{
+    color: #fff;
+    letter-spacing: 2px;
+    line-height: 20px;
+    margin: 4px;
+    text-indent: 1rem;
+    text-shadow: #000 1px 1px 1px;
+    word-spacing: 4px;
 }
-@font-face {
-    font-family: "Athelas";
-    src: url(./fonts/Athelas-Regular.ttf);
+@media screen and (max-width: 1185px){
+    .main img {
+        display: none;
+       }
 }
-@font-face {
-    font-family: "FirstOrder";
-    src: url(./fonts/firstorder.ttf);
+@media screen and (max-width: 960px){
+    .main p{
+        font-size: 12px;
+    }
 }
-@font-face {
-    font-family: "JSL Ancient";
-    src: url(./fonts/jancient.ttf);
+@media screen and (max-width: 572px){
+    .main p{
+        font-size: 10px;
+        letter-spacing: 1px;
+        line-height: 16px;
+        word-spacing: 2px;
+    }
 }
