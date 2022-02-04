@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    font-family: 'JSL Ancient';
+    margin: 0;
+    padding: 0;
+}
+.body{
+    background: #000;
+    min-height: 100vh;
+}
+@font-face {
+    font-family: "Athelas";
+    src: url(./fonts/Athelas-Regular.ttf);
+}
+@font-face {
+    font-family: "FirstOrder";
+    src: url(./fonts/firstorder.ttf);
+}
+@font-face {
+    font-family: "JSL Ancient";
+    src: url(./fonts/jancient.ttf);
+}

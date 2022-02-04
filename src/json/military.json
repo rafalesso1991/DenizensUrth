@@ -98,7 +98,7 @@
         "paths": "warrior",
         "per": 10,
         "def": 13,
-        "armor": "brigandine",
+        "armor": "brigandine, large s.",
         "health": 17,
         "ins": 0,
         "corr": 0,

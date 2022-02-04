@@ -1,0 +1,61 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    height: 7.5vh;
+}
+    .logo img{
+        max-height: 100%;
+        max-width: 100%;
+    }
+.section{
+    display: flex;
+    justify-content: space-around;
+    height: 10vh;
+}
+.nav h1,
+.section h1{
+    align-self: center;
+    color: #fff;
+    font-family:"FirstOrder";
+    font-size: 3.8rem;
+}
+.nav h1{
+    display: none;
+    font-size: 1rem;
+    text-align: center;
+}
+.section a{
+        font-size: 0.9em;
+    }
+    .nav ul,
+    .section ul{
+        display: flex;
+        align-self: flex-end;
+        gap: 1rem;
+        list-style-type: none;
+        margin: 1rem;
+        padding: 1rem;
+    }
+    .nav a,
+    .section a{
+        background: #ECD7C6;
+        border: solid 1px #000;
+        border-radius: 8px;
+        box-shadow: inset 0px 0px 12px;
+        color: #000;
+        font-weight: bold;
+        padding: 0.7em 0.5em 0.5em 0.5em;
+        text-align: center;
+        text-decoration: none;
+    }
+        .nav a:hover,
+        .section a:hover{
+            box-shadow: 0px 0px 12px;
+            color: #9C0817;
+        }
+        .nav a.selected,
+        .section a.selected{
+            background: #9C0817;
+            box-shadow: 0px 0px 12px;
+            color: #fff;
+        }

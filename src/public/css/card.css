@@ -3,7 +3,6 @@
     grid-template-columns: auto auto;
     max-width: 48%;
 }
-
     .main .npc-card img{
         background: #ECD7C6;
         box-shadow: inset 0px 0px 12px;
@@ -11,60 +10,56 @@
         max-height: 360px;
         max-width: 240px;
     }
+    .main .npc-card .stadistics *{
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 0.1em 0.2em;
+        }
     .main .npc-card .stadistics{
         background: #DDE2E9;
         border-radius: 8px;
         font-size: 11px;
         min-width: 336px;
     }
-    .main .npc-card .stadistics *{
-        font-family: Arial, Helvetica, sans-serif;
-        padding: 0.1em 0.2em;
-    }
-    .main .npc-card .expert *{
-        font-size: 0.9em;
-    }
-        .main .npc-card .stadistics p.description{
-            font-style: italic;
-            padding: 0.5em 0.2em 0.3em 0.2em;
-        }
+
         .main .npc-card .stadistics .name-box{
-            background: #000;
-            display: flex;
-            justify-content: space-between;
-            
+        background: #000;
+        display: flex;
+        justify-content: space-between;
         }
-        .main .npc-card .stadistics .name-box h3{
-                background: #000;
-                color: #fff;
-                font-family: 'Athelas';
-                font-size: 1.5em;
-                text-transform: uppercase;
-            }
-        .main .npc-card .stadistics h4{
-            background: #9C0817;
+            .main .npc-card .stadistics .name-box h3{
+            background: #000;
             color: #fff;
             font-family: 'Athelas';
-            font-size: 1.2em;
-            font-style: italic;
-            text-indent: 0.2em;
+            font-size: 1.5em;
+            text-transform: uppercase;
+            }
+        .main .npc-card .stadistics p.description{
+        font-style: italic;
+        padding: 0.5em 0.2em 0.3em 0.2em;
+        }
+        .main .npc-card .stadistics h4{
+        background: #9C0817;
+        color: #fff;
+        font-family: 'Athelas';
+        font-size: 1.2em;
+        font-style: italic;
+        text-indent: 0.2em;
         }
         .main .npc-card .stadistics h5{
-            background: #A8A9AD;
-            font-family: 'Athelas';
-            font-size: 1.3em;
-            text-indent: 0.2em;
-            text-transform: uppercase;
+        background: #A8A9AD;
+        font-family: 'Athelas';
+        font-size: 1.3em;
+        text-indent: 0.2em;
+        text-transform: uppercase;
         }
-            .main .npc-card .stadistics p span{
-                font-weight: bold;
-            }
-            .main .npc-card .stadistics p,
-            .main .npc-card .stadistics p ul li{
-                border-radius: 8px;
-                background: #DDE2E9;
-
-            }
-            .main .npc-card .stadistics ul li{
-                margin-left: 2em;
-            }
+        .main .npc-card .stadistics p span{
+        font-weight: bold;
+        }
+        .main .npc-card .stadistics p,
+        .main .npc-card .stadistics p ul li{
+        border-radius: 8px;
+        background: #DDE2E9;
+        }
+        .main .npc-card .stadistics ul li{
+        margin-left: 2em;
+        }
